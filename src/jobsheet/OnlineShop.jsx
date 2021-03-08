@@ -91,7 +91,7 @@ function PrivateRoute({ component: Component, ...rest }) {
         />
     );
 }
-
+// Home
 function Home() {
     return (
         <div className="Home">
