@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import './jobsheet/BasicExample'
 import './App.css';
+import BasicExample from './jobsheet/BasicExample';
+import ParamsExample from './jobsheet/ParamsExample';
+import NestingExample from './jobsheet/NestingExample';
+import AuthExample from './jobsheet/AuthExample';
+import OnlineShop from './jobsheet/OnlineShop'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BasicExample /> */}
+      {/* <ParamsExample /> */}
+      {/* <NestingExample /> */}
+      {/* <AuthExample /> */}
+      <OnlineShop />
     </div>
   );
 }
